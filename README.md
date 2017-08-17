@@ -7,4 +7,4 @@ Here I attach some AWK script files. "prep_netflix.AWK" is to aggregate all 1777
 In my report (in Word, PPT, PDF) I include the challenges I've encountered, the solutions I've done, my R code practice, and the results.  
 The major 2 things I've learned from this project: to save memory space, use SparseMatrix to save the matrix of 480189 (users) x 17770 (movies). I also faced the execution time limitation because I ran one R command overnight and still could not get the command finished when I tried to input the probe data. Finally I decided to divide the file into 3 parts and import each of them separately and finally append them. 
 
-By using recommenderlab I can give top N recommendations to any user, and predict the ratings of any user on any movie. 
+By using recommenderlab I can give top N recommendations to any user, and predict the ratings of any user on any movie. I worked on the method of POPULAR and UBCF. 
